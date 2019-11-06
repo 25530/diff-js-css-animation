@@ -8,7 +8,9 @@
 Als je klaar bent commit en push je alles naar jouw Github en open je een "Pull request". Dat ga ik aan jullie uitleggen.
 Uiteindelijk hebben we al jullie werk bij elkaar.
 
-Kies één van deze opdrachten, of doe hem in groepjes van twee.
+*Bekijk de voorbeelden in deze repository. Kopieer ze naar je eigen map en pas ze aan, speel er mee!*
+
+**Kies één van onderstaande opdrachten of doe hem samen.**
 
 **Tip**  
 * Begin met lezen van documentatie, en probeer de examples eerst uit zodat je een gevoel krijgt hoe de library werkt.
@@ -77,5 +79,5 @@ Of Google: [js animation library](https://www.google.com/search?q=js+animation+l
 ## Meer lezen?
 * [Mozilla Developers Network: Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 * [Mozilla Developers Network: CSS Animations tips and tricks](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips)
+* [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)
 * [11 Javascript animation libraries for 2019](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
-* 
