@@ -62,17 +62,19 @@ Of bekijk één van deze voorbeelden en maak ze zelf: http://ninodezign.com/18-e
 - http://lazylinepainter.info/
 - Google: [svg path animation](https://www.google.com/search?q=svg+path+animation)
 
-#### Links naar populaire Javascript animatie libraries:
-[Greensock](https://greensock.com/gsap/)  
-[Velocity.js](http://velocityjs.org/)  
-[Anime.js](https://animejs.com/)  
-[Popmotion](https://popmotion.io)  
-[Three.js](https://threejs.org/) (behoorlijk advanced, 3D)
+--
+
+## Links naar populaire Javascript animatie libraries:
+- [Greensock](https://greensock.com/gsap/)  
+- [Velocity.js](http://velocityjs.org/)  
+- [Anime.js](https://animejs.com/)  
+- [Popmotion](https://popmotion.io)  
+- [Three.js](https://threejs.org/) (behoorlijk advanced, 3D)
 
 Of Google: [js animation library](https://www.google.com/search?q=js+animation+library)
 
-
-### Meer lezen
+--
+## Meer lezen?
 * [Mozilla Developers Network: Animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 * [Mozilla Developers Network: CSS Animations tips and tricks](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Tips)
 * [11 Javascript animation libraries for 2019](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
