@@ -65,7 +65,7 @@ Of bekijk één van deze voorbeelden en maak ze zelf: http://ninodezign.com/18-e
 --
 
 ## Links naar populaire Javascript animatie libraries:
-- [Greensock](https://greensock.com/gsap/)  
+- [Greensock](https://greensock.com/gsap/)   / [Getting started](https://greensock.com/get-started/)
 - [Velocity.js](http://velocityjs.org/)  
 - [Anime.js](https://animejs.com/)  
 - [Popmotion](https://popmotion.io)  
