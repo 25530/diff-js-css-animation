@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
         .square {
-            width: 100px;
-            height: 100px;
-            background: red;
+            width: 200px;
+            height: 200px;
+            background-image: url("hidde.jpeg");
+            background-size: 100%;
+            border-radius: 50%;
         }
+        
     </style>
 </head>
 
@@ -27,8 +30,9 @@
             console.log('DOM ready!');
 
             TweenMax.to('.square', 3, {
-                x: 100,
-                rotation: 360
+                x: 900,
+                y: 300,
+                rotation: 720
             });
 
         }
