@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pulsing ball</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+
+            /* De animatie */
+            @keyframes pulse {
+                0% {
+                    background-color: #000000;
+                }
+                50% {
+                    background-color: #ff0000;
+                    transform: scale(1.2, 1.2); 
+                }
+                100% {
+                    background-color: #000000;
+                }
+            }
+
+            /* Het element en welke animatie moet plaatsvinden */
+            .circle {
+                position: relative;
+                display: inline-block;
+                margin-right: 20px;
+                width: 100px;
+                height: 100px;
+                background-color: #000000;
+                border-radius: 50%;
+
+            }
+            .circle:hover {
+                animation-name: pulse;
+                animation-duration: 0.5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-out;
+            }            
+
+        </style>
+    </head>
+    <body>
+    <h2>Pulse</h2>
+    <p>
+    Animatie met keyframes die de property 'transition' animeert. In dit geval een verandering in 'schaal' naar 70%.
+    </p>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    </body>
+</html>

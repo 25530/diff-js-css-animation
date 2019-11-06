@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sliding panel</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+
+            /* De animatie */
+            @keyframes slide-in {
+                0% {
+                    transform: translateX(-100%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            /* De animatie */
+            @keyframes slide-out {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100);
+                }
+            }
+
+
+            /* Het element en welke animatie moet plaatsvinden */
+            .panel {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 200px;
+                height: 100vh;
+                transform: translateX(-100%);
+                background-color: green;
+                color: #ffffff;
+
+            }
+            .panel--slidein {
+                animation-name: slide-in;
+                animation-duration: 0.5s;
+                animation-timing-function: ease-out;
+                animation-fill-mode: forwards;
+            }     
+            
+            .panel--slideout {
+                animation-name: slide-out;
+                animation-duration: 0.5s;
+                animation-timing-function: ease-out;
+                animation-fill-mode: forwards;
+            }    
+            
+            .panel-handle {
+                text-align: center;
+                line-height: 30px;
+                font-weight: 700;
+                font-size: 30px;
+                text-decoration: none;
+                position: absolute;
+                padding: 10px;
+                right: -50px;
+                top: 0;
+                width: 30px;
+                height: 30px;
+                background-color: green;
+                color: #fff;
+            }
+
+            .content {
+                margin-top: 50px;
+            }
+
+        </style>
+        <script>
+        let panelVisible = false;
+        function slideIn(e){
+            let panel = document.getElementById('mypanel');
+            if(panelVisible === false){
+                if(panel.classList.contains('panel--slideout')){
+                    panel.classList.toggle("panel--slideout");                    
+                }
+                panel.classList.toggle("panel--slidein");
+            }else{
+                panel.classList.toggle("panel--slidein");
+                panel.classList.toggle("panel--slideout");
+            }
+            panelVisible = !panelVisible;
+        }
+        </script>
+    </head>
+    <body>
+    <div class="panel" id="mypanel">
+        <a href="#" class="panel-handle" onclick="slideIn()">X</a>
+    </div>
+    <div class="content">
+    <h2>Sliding panel</h2>
+    <p>
+    Een panel laten in "slide" door een class er aan te koppelen als je ergens op klikt.
+    </p>
+    </div>
+    </body>
+</html>
